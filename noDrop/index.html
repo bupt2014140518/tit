@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Audio Player</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="audio-img">
+				<img class="cover">
+			</div>
+			<div id="audio-player">
+				<span id="audio-info"></span>
+				<input id="volume" type="range" min="0" max="10" value="0.1">
+				<br>
+				<div id="audio-buttons">
+					<button id="prev"></button>
+					<button id="play"></button>
+					<button id="pause"></button>
+					<button id="stop"></button>
+					<button id="next"></button>
+				</div>
+				<div class="clearfix"></div>
+				<div id="tracker">
+					<div id="progressbar">
+						<span id="progress"></span>
+					</div>
+					<span id="duration"></span>
+				</div>
+				<div class="clearfix"></div>
+				<div id="dropbox">
+					<span class="message">Drop mp3 here to upload</span>
+				</div>
+				<div class="clearfix"></div>
+				<ul id="playlist">
+					<li cover="cover.jpg">Lifehouse - Broken.mp3</li>
+					<li cover="cover.jpg">GALA - Young For You.mp3</li>
+					<li cover="cover.jpg">Jessie J - Flashlight.mp3</li>
+					<li cover="cover.jpg">Jose - Stay Alive.mp3</li>
+					<li cover="cover.jpg">Justin - Five Hundred Miles.mp3</li>
+					<li cover="cover.jpg">Katy Perry - Firework.mp3</li>
+					<li cover="cover.jpg">Leona Lewis - Bleeding Love.mp3</li>
+					<li cover="cover.jpg">Lexington Bridge - You Are My Everything.mp3</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
